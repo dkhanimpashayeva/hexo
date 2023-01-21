@@ -12,16 +12,18 @@ app.use(bodyParser.json());
 const { Schema } = mongoose;
 const userSchema = new Schema(
   {
-    fullName: {
+
+    name: {
       type: String,
       require: true
     },
-    userName: {
+    job:{
       type: String,
       require: true
     },
-    age: {
-      type: Number,
+    info: {
+      type: String,
+      require: true
     },
   },
   {
@@ -62,9 +64,9 @@ app.get("/users/:id", (req, res) => {
 //POST
 app.post("/users", (req, res) => {
   let user = new Users({
-    fullName: req.body.fullName,
-    userName: req.body.userName,
-    age: req.body.age
+    name: req.body.name,
+    job: req.body.job,
+    info: req.body.info,
   });
 
   user.save();
