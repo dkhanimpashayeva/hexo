@@ -9,6 +9,9 @@ const Projects = () => {
     .projects{
         text-align:center;
     }
+    .projects h2{
+       font-size:40px;
+    }
     .projects p{
         font-size:16px;
         padding:40px 0;
@@ -53,7 +56,7 @@ const Projects = () => {
     </style>
 <section className="projects">
 <div className="titleOfprojects">
-<div className="h3">Projects</div>
+<h2>Projects</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam  
     <br/>s
     minima expedita reiciendis Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, beatae.s

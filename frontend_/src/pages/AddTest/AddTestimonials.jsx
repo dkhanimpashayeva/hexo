@@ -195,10 +195,17 @@ padding:100px 0;
       <input  {...register("name")} name="name" id="name"              value={input.name}
          onChange={handleChange}
    />
-    
-      {errors.name?( <span>{errors.name?.message}</span>):(
+         {errors.name?( <span>{errors.name?.message}</span>):(
 <></>
        )}
+          <input  {...register("url")} name="url" id="url"    type="url"    value={input.url}         onChange={handleChange}
+   />
+      {errors.url ? (
+        <span style={{ color: "red" }}>{errors.url.message}</span>
+      ) : (
+        <></>
+      )}
+
       <input  {...register("job")} name="job" id="job"        value={input.job}         onChange={handleChange}
    />
       {errors.job ? (
@@ -206,6 +213,7 @@ padding:100px 0;
       ) : (
         <></>
       )}
+      
      
       <input  {...register("info")} name="info" id="info"        value={input.info}          onChange={handleChange}
   />

@@ -2,16 +2,40 @@ footer{
     background-color: #262626;
     color:white;
     padding-top: 50px ;
-    i{
-        color:red;
+    h4{
+        margin:40px 0 ;
     }
+  .icons-footer li{
+color:red;
+border-radius: 50%;
+border:1px solid gray;
+margin: 10px;
+padding: 10px 12px;
+
+  }
+  .contact{
+    a{
+        color:white;
+    }
+  }
     p{
         font-size: 17px;
+      
     }
     .footerBottom{
-        padding: 40px 0;
+        padding: 70px 0 30px 0 ; 
     }
     span{
         color:white;
     }
+    .footer-links {
+        padding-top: 30px;
+        a{
+            color:red;
+            line-height:40px ;
+            text-decoration: none;
+            
+        }
+    }
+
 }

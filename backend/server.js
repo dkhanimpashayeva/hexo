@@ -21,6 +21,11 @@ const userSchema = new Schema(
       type: String,
       require: true
     },
+    url:
+    {
+        type: String,
+        require: true
+    },
     info: {
       type: String,
       require: true
@@ -66,6 +71,7 @@ app.post("/users", (req, res) => {
   let user = new Users({
     name: req.body.name,
     job: req.body.job,
+    url: req.body.url,
     info: req.body.info,
   });
 

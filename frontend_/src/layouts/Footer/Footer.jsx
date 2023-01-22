@@ -20,7 +20,7 @@ const Footer = () => {
               Voluptatibus et dolor blanditiis consequuntur ex voluptates
               perspiciatis omnis unde minima expedita.
             </p>
-            <ul className="d-flex list-unstyled align-items-center">
+            <ul className="d-flex list-unstyled align-items-center icons-footer">
               <li>
                 <AiOutlineInstagram />
               </li>
@@ -42,11 +42,11 @@ const Footer = () => {
                 <p>Address:</p>
                 <span>34 Street Name, City Name Here, United States</span>
               </li>
-              <li>
+              <li className="contact">
                 <p>Telephone:</p>
                 <Link to="/">+1 242 4942 290</Link>
               </li>
-              <li>
+              <li className="contact">
                 <p>Email:</p>
                 <Link to="">info@yourdomain.com</Link>
               </li>
@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
           <div className="col-3">
           <h4>QUICK LINKS</h4>
-            <ul className="list-unstyled">
+            <ul className="list-unstyled  footer-links">
               <li>
                 <Link to="">About</Link>
               </li>

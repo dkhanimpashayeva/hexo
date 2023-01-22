@@ -50,12 +50,12 @@ const Infrucsture = () => {
           <span>INFRASTRUCTURE</span> 
         </div>
          </div>
-                <h3>Let's Build <br />
+                <h3> Let's Build <br />
                    Together</h3>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
                 </div>
               <div className="col-7">
-                <img src="https://preview.colorlib.com/theme/hexa/images/img_1_long.jpg" alt="infracture" />
+                <img    src="https://preview.colorlib.com/theme/hexa/images/img_1_long.jpg" alt="infracture" />
               </div>
            
             </div>

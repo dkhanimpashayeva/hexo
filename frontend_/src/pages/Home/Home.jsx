@@ -1,18 +1,16 @@
 import React from "react";
-import Card from "../../companents/Card";
+import Card from "../../companents/Card/Card";
 import Sliderhero from "../../companents/Sliderhero";
-import Helmet from "helmet";
 import "./Home.scss";
 import Infohero from "../../companents/Infohero";
 import Infrucsture from "../../companents/Infrucsture";
 import Collabration from "../../companents/Collabration";
 import Projects from "../../companents/Projects";
+import BlogPost from "../../companents/BlogPost";
 const Home = () => {
   return (
     <>
-      <Helmet>
-        <title>Home</title>
-      </Helmet>
+     
       
         <Sliderhero />
         <Infohero />
@@ -20,7 +18,8 @@ const Home = () => {
         <Collabration />
         <Projects/>
         <Card />
-     
+       
+     <BlogPost/>
     </>
   );
 };

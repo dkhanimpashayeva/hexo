@@ -49,7 +49,7 @@ transform:translate(-50%,-50%);
     background-position: center;
     filter:brightness(95%)
 }
-  button{
+.swiper-container button{
     border:1px solid transparent;
     padding:5px 15px;
     background-color: transparent;
